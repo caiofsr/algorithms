@@ -1,10 +1,10 @@
 /**
  * Performs a binary search on a sorted array to find the index of a target value.
- * Time complexity: O(log n)
  *
  * @param {Array} arr - The sorted array to search in.
  * @param {*} target - The value to search for.
  * @return {number|undefined} The index of the target value in the array, or undefined if not found.
+ * @time O(log n) - where n is the length of the input array
  */
 function binarySearch(arr, target) {
   let left = 0;
